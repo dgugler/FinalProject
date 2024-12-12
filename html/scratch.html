@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Basketball Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: gainsboro; /* Custom background color */
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center everything on the page */
+        }
+        header, footer {
+            background-color: #003366;
+            color: white;
+            padding: 1em 0;
+        }
+        h1, h2, p {
+            margin: 0.5em 0;
+        }
+        a {
+            color: #ff4500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul, ol {
+            display: inline-block; /* Center lists */
+            text-align: left;
+            margin: 1em auto;
+        }
+        img {
+            display: block;
+            margin: 1em auto;
+            max-width: 90%; /* Responsive image */
+            border: 2px solid #003366;
+            border-radius: 10px;
+        }
+        .video-container {
+            margin: 2em 0;
+        }
+        iframe {
+            max-width: 100%;
+            border: 2px solid #003366;
+            border-radius: 10px;
+        }
+        .tableau-container {
+            margin: 2em 0;
+        }
+        footer a {
+            display: block;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>College Basketball</h1>
+    </header>
+
+    <!-- Return to Home and On-Page Anchor -->
+    <p>
+        <a href="../index.html">Return to Home</a> |
+        <a href="#fun-facts">Jump to Fun Facts!</a> |
+        <a href="aiwebapp.html">Fun Game</a>
+    </p>
+
+    <!-- Content -->
+    <h2>Why College Basketball is Exciting</h2>
+    <p>College basketball is one of the most thrilling sports in the U.S., especially during March Madness. Fans love the energy, underdog stories, and emerging future NBA stars.</p>
+
+    <!-- Ordered List with Embedded Unordered Lists -->
+    <h2>Top 3 Reasons College Basketball Stands Out</h2>
+    <ol>
+        <li>
+            March Madness Tournament
+            <ul>
+                <li>68 teams compete for the national title.</li>
+                <li>Single elimination adds suspense.</li>
+            </ul>
+        </li>
+        <li>
+            Player Development
+            <ul>
+                <li>Great training ground for NBA prospects.</li>
+                <li>Focus on fundamentals and teamwork.</li>
+            </ul>
+        </li>
+        <li>
+            Passionate Fanbase
+            <ul>
+                <li>Students and alumni show unmatched loyalty.</li>
+                <li>Rivalries like Duke vs. UNC fuel excitement.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- Non-Bootstrap Image -->
+    <h2>Iconic College Basketball Moments</h2>
+    <img src="../assets/img/a8Zhsjs4amU4YQ1gh84fixvx4hLtl8FsMVoSuECi.webp" alt="Iconic Basketball Moment">
+
+    <!-- Embedded YouTube Video -->
+    <div class="video-container">
+        <h2>College Basketball Highlights</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L1psLFmntTs?si=_g_KSRJSQFXCYVw9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- Tableau Graph -->
+    <div class="tableau-container">
+        <h2>Career Scoring Insights</h2>
+        <div class='tableauPlaceholder' id='viz1734020746315' style='position: relative'>
+            <noscript><a href='#'><img alt='PlayerViz ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Jo&#47;JordanCareerScoring&#47;PlayerViz&#47;1_rss.png' style='border: none'></a></noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+                <param name='embed_code_version' value='3'>
+                <param name='site_root' value=''>
+                <param name='name' value='JordanCareerScoring&#47;PlayerViz'>
+                <param name='tabs' value='no'>
+                <param name='toolbar' value='yes'>
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Jo&#47;JordanCareerScoring&#47;PlayerViz&#47;1.png'>
+                <param name='animate_transition' value='yes'>
+                <param name='display_static_image' value='yes'>
+                <param name='display_spinner' value='yes'>
+                <param name='display_overlay' value='yes'>
+                <param name='display_count' value='yes'>
+                <param name='language' value='en-US'>
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1734020746315');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='100%';
+            vizElement.style.height='700px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- Fun Facts Section -->
+    <h2 id="fun-facts">Fun Facts About College Basketball</h2>
+    <ul>
+        <li>College basketball began in 1896.</li>
+        <li>The NCAA tournament started in 1939.</li>
+        <li>UCLA holds the record with 11 national championships.</li>
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 College Basketball Fans. All Rights Reserved.</p>
+        <a href="#top">Back to Top</a>
+    </footer>
+</body>
+</html>
